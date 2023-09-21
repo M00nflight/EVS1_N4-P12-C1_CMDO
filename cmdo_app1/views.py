@@ -4,5 +4,8 @@ from django.http import HttpResponse
 def vistaUno(request):
     html="""
     <h1 style="color:orange">Vista 1 App1</h1>
+    <body><h1>Vista 2</h1><p>Este es el contenido de la vista uno.</p></body>
+    <img src="https://i.pinimg.com/564x/72/1f/71/721f71843f692f511a03f30a47d2764f.jpg" />
+
     """
     return HttpResponse(html)
